@@ -29,7 +29,7 @@ export const resumeConfig: ResumeConfig = {
   // ===== SEO (used in <head> meta tags) =====
   seo: {
     title: 'Ariel SODJINOU — Fullstack Developer',
-    description: 'Interactive resume of Jane Doe, Fullstack Developer specializing in React and TypeScript.',
+    description: 'Interactive resume of Ariel SODJINOU, Fullstack Developer specializing in Backend and Project Management.',
   },
 
   // ===== LANGUAGES =====
@@ -44,11 +44,11 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'janedoe', href: 'https://github.com/janedoe' },
-    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/janedoe' },
-    { type: 'email', label: 'jane@example.com' },
-    { type: 'phone', label: '+33 6 12 34 56 78' },
-    { type: 'location', label: 'Paris, France' },
+    { type: 'github', label: 'janedoe', href: 'https://github.com/Ariel013' },
+    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/ariel-kevin-sodjinou/' },
+    { type: 'email', label: 'kevin.sodjinou@epitech.eu' },
+    { type: 'phone', label: '+229 61566704' },
+    { type: 'location', label: 'Abidjan, Côte-d\'Ivoire'},
   ],
 
   // ===== SKILLS =====
@@ -58,16 +58,17 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 910' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Intermediate', fr: 'Intermediaire' } },
+        // { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 910' },
       ],
     },
     {
       title: { en: 'Frontend', fr: 'Frontend' },
       type: 'badges',
       items: [
-        { name: 'React' },
-        { name: 'TypeScript' },
-        { name: 'Angular' },
+        { name: 'Vue js' },
+        { name: 'Javascript' },
+        { name: 'React Js' },
       ],
     },
     {
@@ -90,17 +91,18 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'DevOps', fr: 'DevOps' },
       type: 'badges',
       items: [
-        { name: 'Docker' },
-        { name: 'Kubernetes' },
-        { name: 'AWS' },
-        { name: 'GitHub Actions' },
+        // { name: 'Docker' },
+        // { name: 'Kubernetes' },
+        // { name: 'AWS' },
+        // { name: 'GitHub Actions' },
       ],
     },
     {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
-        { name: { en: 'Agile/Scrum, TDD, Code Review, CI/CD', fr: 'Agile/Scrum, TDD, Code Review, CI/CD' } },
+        { name: { en: 'Agile/Scrum, Code Review, CI/CD', fr: 'Agile/Scrum, Code Review, CI/CD' } },
+        // { name: { en: 'Agile/Scrum, TDD, Code Review, CI/CD', fr: 'Agile/Scrum, TDD, Code Review, CI/CD' } },
       ],
     },
   ],
@@ -109,14 +111,14 @@ export const resumeConfig: ResumeConfig = {
   experiences: [
     {
       id: 'company-a',
-      company: { en: 'TechCorp', fr: 'TechCorp' },
-      role: { en: 'Senior Fullstack Developer', fr: 'Développeuse Fullstack Senior' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2022 - Present', fr: '2022 - Présent' },
+      company: { en: 'EPITECH Bénin', fr: 'EPITECH Bénin' },
+      role: { en: 'Educationnal Coach', fr: 'Accompagnateur Pédagogique' },
+      type: { en: 'Services Contrat', fr: 'Prestation de services' },
+      period: { en: '2024 - Present', fr: '2024- Présent' },
       description: {
-        en: 'Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.',
+        en: 'Coached students in the field of web development and data development (Data/IA) through practical technical projects. Trained over 79 students in Abidjan (Ivory Coast) and 9 students in Lomé (Togo)',
         fr: 'Direction du développement d\'une plateforme SaaS utilisée par 10k+ utilisateurs. Architecture microservices et frontend React moderne.',
-      },
+      },         
       techs: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
       isHighlighted: true,
       details: {
