@@ -13,7 +13,7 @@ export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
     name: 'Ariel SODJINOU',
-    photo: '/images/photo.jpg', // Place your photo in public/images/
+    photo: '/images/photo.png', // Place your photo in public/images/
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
       en: 'Fullstack Developer',
@@ -44,8 +44,8 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'janedoe', href: 'https://github.com/Ariel013' },
-    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/ariel-kevin-sodjinou/' },
+    { type: 'github', label: 'Ariel013', href: 'https://github.com/Ariel013' },
+    { type: 'linkedin', label: 'Ariel Kevin SODJINOU', href: 'https://linkedin.com/in/ariel-kevin-sodjinou/' },
     { type: 'email', label: 'kevin.sodjinou@epitech.eu' },
     { type: 'phone', label: '+229 61566704' },
     { type: 'location', label: 'Abidjan, Côte-d\'Ivoire'},
@@ -226,7 +226,7 @@ export const resumeConfig: ResumeConfig = {
       details: {
         context: {
           en: 'The company offers IT maintenance, network engineering, electronic equipment, access control, video surveillance, videoconferencing, IP telephony, and web solutions (websites, domain names).',
-          fr: 'L\'entreprise propose des services de maintenance informatique, d'ingénierie réseau, de matériel électronique, de contrôle d\'accès, de vidéosurveillance, de visioconférence, de téléphonie IP et de solutions web (sites web, noms de domaine).',
+          fr: 'L\'entreprise propose des services de maintenance informatique, d\'ingénierie réseau, de matériel électronique, de contrôle d\'accès, de vidéosurveillance, de visioconférence, de téléphonie IP et de solutions web (sites web, noms de domaine).',
         },
         tasks: {
           en: [
@@ -241,8 +241,8 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          en: 'Cisco', 'Routers', 'Packet Tracer',
-          fr: 'Cisco', 'Routers', 'Packet Tracer',
+          en: 'Cisco / Routers / Packet Tracer',
+          fr: 'Cisco / Routers / Packet Tracer',
         },
       },
     },
@@ -279,39 +279,39 @@ export const resumeConfig: ResumeConfig = {
       school: { en: 'ESGIS', fr: 'École Supérieure de Gestion, d\'Informatique et des Sciences(ESGIS)' },
       degree: { en: 'Bachelor\'s Degree in Computer Science, Networking, and Telecommunications', fr: 'Licence en Informatique, Réseaux et Télécommunications' },
       specialty: { en: 'Systems, Networks, and Security', fr: 'Systèmes, Réseaux et Sécurité' },
-      period: '2017 - 2019',
+      period: '2019 - 2022',
     },
     {
       school: { en: 'EPITECH', fr: 'École pour l\'informatique et les nouvelles technologies (EPITECH)' },
       degree: { en: 'Certificate in Web and Mobile design and developpement', fr: 'Certificat concepteur développeur Web et Mobile' },
-      period: '2014 - 2017',
+      period: '2022 - 2023',
     },
   ],
 
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Photography', fr: 'Photographie' },
+      title: { en: 'Fashion', fr: 'Mode' },
       details: [
-        { en: 'Street photography', fr: 'Photo de rue' },
+        { en: 'Modeling', fr: 'Modeling photo' },
         { en: '5 years', fr: '5 ans' },
       ],
     },
     {
-      title: { en: 'Hiking', fr: 'Randonnée' },
+      title: { en: 'Dance', fr: 'Danse' },
       details: [
-        { en: 'Mountain trails', fr: 'Sentiers de montagne' },
+        { en: 'Kizomba, Salsa, Bachata', fr: 'Kizomba, Salsa, Bachata' },
       ],
     },
-    {
-      title: { en: 'Open Source', fr: 'Open Source' },
-    },
-    {
-      title: { en: 'Guitar', fr: 'Guitare' },
-      details: [
-        { en: '3 years', fr: '3 ans' },
-      ],
-    },
+    // {
+    //   title: { en: 'Open Source', fr: 'Open Source' },
+    // },
+    // {
+    //   title: { en: 'Guitar', fr: 'Guitare' },
+    //   details: [
+    //     { en: '3 years', fr: '3 ans' },
+    //   ],
+    // },
   ],
 
   // ===== PDF (optional — place your PDF in public/cv/) =====
